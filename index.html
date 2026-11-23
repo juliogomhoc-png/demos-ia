@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Asistentes con IA para negocios en Granada · Julio</title>
+<meta name="description" content="Asistentes con inteligencia artificial para restaurantes y negocios de Granada: cogen reservas, responden a clientes en español, inglés y francés y te avisan por WhatsApp. Demo gratis con los datos de tu negocio.">
+<meta property="og:title" content="Asistentes con IA para negocios en Granada">
+<meta property="og:description" content="Cogen reservas y responden a tus clientes en tres idiomas mientras tú trabajas. Pide tu demo gratis.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"Julio · Asistentes con IA para negocios","areaServed":"Granada","description":"Asistentes con inteligencia artificial para restaurantes y pequeños negocios: reservas, atención a clientes en varios idiomas y respuesta a reseñas."}
+</script>
+<style>
+:root{--acc:#b45309;--bg:#f7f4ef;--card:#fff;--ink:#1c1917;--muted:#6b645c;--line:#e7e1d8}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:16px/1.55 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+nav{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+nav b{font:700 18px Fraunces,serif}
+nav a.btn{padding:9px 14px;font-size:14px}
+.btn{display:inline-block;background:var(--acc);color:#fff;text-decoration:none;font-weight:600;padding:13px 20px;border-radius:12px;border:0;cursor:pointer;font-size:16px}
+.btn:disabled{opacity:.6}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+header.hero{padding:40px 0 56px;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:40px;align-items:center}
+@media(max-width:860px){header.hero{grid-template-columns:minmax(0,1fr);padding-top:16px}}
+h1{font:700 clamp(34px,5.4vw,56px)/1.05 Fraunces,Georgia,serif;letter-spacing:-.015em}
+h1 em{font-style:normal;color:var(--acc)}
+.lead{margin-top:18px;font-size:19px;color:var(--muted);max-width:52ch}
+.ctas{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}
+.mini{margin-top:14px;font-size:14px;color:var(--muted)}
+.chat{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:18px;box-shadow:0 24px 60px -30px rgba(60,40,20,.4);display:flex;flex-direction:column;gap:8px}
+.chat .h{display:flex;align-items:center;gap:10px;padding-bottom:10px;border-bottom:1px solid var(--line);margin-bottom:4px;font-size:14px}
+.chat .h i{width:34px;height:34px;border-radius:50%;background:var(--acc);display:grid;place-items:center;color:#fff;font:700 15px Fraunces;font-style:normal;flex:none}
+.b{max-width:85%;padding:9px 13px;border-radius:15px;font-size:14.5px}
+.b.u{align-self:flex-end;background:var(--acc);color:#fff;border-bottom-right-radius:4px}
+.b.a{background:#f1ede6;border-bottom-left-radius:4px}
+.b.n{align-self:center;font-size:12.5px;color:var(--muted);background:none;text-align:center}
+section{padding:56px 0;border-top:1px solid var(--line)}
+h2{font:700 clamp(26px,3.6vw,36px)/1.15 Fraunces,serif;margin-bottom:10px}
+.sub{color:var(--muted);max-width:60ch;margin-bottom:28px}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+@media(max-width:860px){.grid3,.grid2{grid-template-columns:minmax(0,1fr)}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px}
+.card h3{font:600 18px/1.25 Fraunces,serif;margin-bottom:6px}
+.card p{color:var(--muted);font-size:15px}
+.num{width:30px;height:30px;border-radius:9px;background:var(--acc);color:#fff;display:grid;place-items:center;font-weight:700;margin-bottom:12px}
+.demo-frame{width:100%;height:780px;border:1px solid var(--line);border-radius:20px;background:#fff}
+@media(max-width:860px){.demo-frame{display:none}}
+.tags{display:flex;flex-wrap:wrap;gap:8px}
+.tags span{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:7px 13px;font-size:14px}
+.rev{display:flex;flex-direction:column;gap:10px}
+.stars{color:var(--acc);letter-spacing:2px}
+.empty{color:var(--muted)}
+form{display:grid;gap:12px}
+label{font-size:14px;font-weight:600;display:grid;gap:6px}
+input,select,textarea{font:16px Inter,sans-serif;padding:12px 14px;border:1px solid var(--line);border-radius:11px;background:#fff;width:100%;color:var(--ink)}
+textarea{min-height:96px;resize:vertical}
+input:focus,select:focus,textarea:focus{outline:2px solid #f59e0b66;border-color:var(--acc)}
+.check{display:flex;gap:10px;align-items:flex-start;font-weight:400;font-size:13.5px;color:var(--muted)}
+.check input{width:auto;margin-top:3px}
+.ok{display:none;background:#ecfdf5;border:1px solid #a7f3d0;color:#065f46;border-radius:12px;padding:14px;font-size:15px}
+.dark{background:var(--ink);color:#fff;border-radius:24px;padding:34px 22px}
+.dark .sub{color:#d6d3d1}
+.dark .check{color:#d6d3d1}
+footer{padding:36px 0 50px;color:var(--muted);font-size:13.5px;border-top:1px solid var(--line)}
+.stars-input{display:flex;gap:6px}
+.stars-input button{background:none;border:0;font-size:28px;cursor:pointer;color:#d6d3d1;padding:0}
+.stars-input button.on{color:var(--acc)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav><b>Julio · IA para negocios</b><a class="btn" href="#pedir">Demo gratis</a></nav>
+
+  <header class="hero">
+    <div>
+      <h1>Un asistente con IA que atiende a tus clientes <em>mientras tú trabajas</em>.</h1>
+      <p class="lead">Coge reservas, responde a las preguntas de siempre (horario, carta, cómo llegar) en español, inglés y francés, y te lo pasa todo por WhatsApp. Para restaurantes y negocios de Granada.</p>
+      <div class="ctas">
+        <a class="btn" href="#pedir">Pide tu demo gratis</a>
+        <a class="btn ghost" href="ejemplo/">Probar un ejemplo</a>
+      </div>
+      <p class="mini">Te preparo la demo con los datos de tu negocio. Sin llamadas y sin compromiso.</p>
+    </div>
+    <div class="chat" aria-hidden="true">
+      <div class="h"><i>T</i><div><b>La Tasca del Ejemplo</b><br><span style="color:var(--muted)">Asistente · responde al momento</span></div></div>
+      <div class="b u">Hi! Can I book a table for 4 tonight?</div>
+      <div class="b a">Of course! What time would you like? We have tables at 20:30 and 21:30.</div>
+      <div class="b u">21:30, name Sarah</div>
+      <div class="b a">Done, Sarah! Table for 4 tonight at 21:30. You'll get a confirmation on WhatsApp.</div>
+      <div class="b n">📲 Al restaurante le llega: «Nueva reserva · Sarah · 4 pers · 21:30»</div>
+    </div>
+  </header>
+</div>
+
+<section>
+  <div class="wrap">
+    <h2>Qué hace por tu negocio</h2>
+    <p class="sub">Lo que ahora te quita tiempo al teléfono o al WhatsApp, lo contesta el asistente en segundos y a cualquier hora.</p>
+    <div class="grid3">
+      <div class="card"><h3>Reservas sin llamadas</h3><p>Pregunta personas, día, hora y nombre, y te la deja apuntada. Tú solo confirmas.</p></div>
+      <div class="card"><h3>Responde en 3 idiomas</h3><p>Español, inglés y francés. Ideal para los turistas que escriben a las 2 de la mañana desde el hotel.</p></div>
+      <div class="card"><h3>Las preguntas de siempre</h3><p>Horario, carta, opciones vegetarianas, cómo llegar, si hay terraza… con tus datos reales.</p></div>
+      <div class="card"><h3>Reseñas respondidas</h3><p>Te propone respuestas a las reseñas de Google para que solo tengas que aprobarlas.</p></div>
+      <div class="card"><h3>Avisos al WhatsApp</h3><p>Cada reserva o consulta importante te llega al móvil o al email, sin aprender nada nuevo.</p></div>
+      <div class="card"><h3>En tu web y en Google</h3><p>Un enlace para tu web, tu ficha de Google e Instagram, y un QR para las mesas o el escaparate.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Pruébalo ahora</h2>
+    <p class="sub">Este restaurante es inventado. Escríbele como si fueras un cliente: pide mesa, pregunta qué recomiendan o escribe en inglés.</p>
+    <iframe class="demo-frame" src="ejemplo/" title="Demo de asistente con un restaurante inventado" loading="lazy"></iframe>
+    <p style="margin-top:14px"><a class="btn" href="ejemplo/">Abrir la demo a pantalla completa</a></p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Cómo funciona</h2>
+    <p class="sub">Todo por escrito. Sin reuniones ni llamadas comerciales.</p>
+    <div class="grid3">
+      <div class="card"><div class="num">1</div><h3>Me cuentas tu negocio</h3><p>Rellenas el formulario de abajo en un minuto.</p></div>
+      <div class="card"><div class="num">2</div><h3>Te preparo una demo</h3><p>En 48 horas tienes un asistente de prueba con tu nombre, tu carta y tu horario.</p></div>
+      <div class="card"><div class="num">3</div><h3>Si te convence, lo dejo funcionando</h3><p>En tu web, en Google y en WhatsApp. Te digo el precio por escrito antes de nada.</p></div>
+    </div>
+    <div style="margin-top:28px">
+      <p style="font-weight:600;margin-bottom:10px">Funciona para:</p>
+      <div class="tags"><span>Restaurantes y bares</span><span>Clínicas y fisios</span><span>Peluquerías y estética</span><span>Talleres</span><span>Alojamientos turísticos</span><span>Academias</span><span>Tiendas</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="opiniones">
+  <div class="wrap">
+    <h2>Opiniones</h2>
+    <p class="sub">Solo publico opiniones reales de negocios con los que he trabajado, con su permiso.</p>
+    <div class="grid2" id="revs"></div>
+    <p class="empty" id="revEmpty" hidden>Todavía no hay opiniones publicadas: estoy con mis primeros clientes. Si quieres ser uno de ellos, pide tu demo gratis.</p>
+    <p style="margin-top:18px"><a href="#opinar" style="font-weight:600">¿Has trabajado conmigo? Deja tu opinión →</a></p>
+  </div>
+</section>
+
+<section id="pedir">
+  <div class="wrap">
+    <div class="dark">
+      <h2>Pide tu demo gratis</h2>
+      <p class="sub">Te la preparo con los datos de tu negocio y te mando el enlace por email o WhatsApp en 48 horas.</p>
+      <form id="fPedir">
+        <div class="grid2">
+          <label>Nombre del negocio<input name="negocio" required maxlength="100"></label>
+          <label>Tipo de negocio<select name="tipo" required>
+            <option value="">Elige uno</option><option>Restaurante o bar</option><option>Clínica o fisio</option><option>Peluquería o estética</option><option>Taller</option><option>Alojamiento</option><option>Academia</option><option>Tienda</option><option>Otro</option>
+          </select></label>
+          <label>Ciudad<input name="ciudad" value="Granada" maxlength="60"></label>
+          <label>Email o WhatsApp para enviarte la demo<input name="contacto" required maxlength="100"></label>
+        </div>
+        <label>¿Qué te gustaría que hiciera? (opcional)<textarea name="mensaje" maxlength="600" placeholder="Ej.: coger reservas por WhatsApp, responder en inglés, contestar reseñas…"></textarea></label>
+        <label class="check"><input type="checkbox" name="ok" required> Acepto que Julio use estos datos solo para prepararme la demo y responderme. No se comparten con nadie.</label>
+        <div><button class="btn" type="submit">Quiero mi demo</button></div>
+        <div class="ok" id="okPedir">¡Recibido! Te escribo en menos de 48 horas con tu demo.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section id="opinar">
+  <div class="wrap" style="max-width:680px">
+    <h2>Deja tu opinión</h2>
+    <p class="sub">Si te he hecho un asistente, cuéntame qué tal. Solo la publico si me das permiso.</p>
+    <form id="fOpinar">
+      <label>Tu nombre<input name="nombre" required maxlength="60"></label>
+      <label>Tu negocio<input name="negocio" required maxlength="100"></label>
+      <label>Valoración<div class="stars-input" id="stars"></div></label>
+      <label>Tu opinión<textarea name="texto" required maxlength="600"></textarea></label>
+      <label class="check"><input type="checkbox" name="publicar"> Puedes publicar mi opinión en esta web con mi nombre y el de mi negocio.</label>
+      <div><button class="btn" type="submit">Enviar opinión</button></div>
+      <div class="ok" id="okOpinar">¡Gracias! La reviso y, si me has dado permiso, la publico en unos días.</div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Julio · Asistentes con IA para negocios · Granada<br>Esta web cuenta las visitas de forma anónima, sin cookies. Los datos de los formularios solo se usan para responderte.</div>
+</footer>
+
+<script>
+const FORM='https://docs.google.com/forms/d/e/1FAIpQLSf2ROMx1M8RrN2R4DcH21KFLCSs7tWwRJedQKMbJvvQjxCw1g/formResponse';
+const qs=new URLSearchParams(location.search), prueba=qs.has('prueba');
+let soyYo=false;
+try{ if(qs.has('yo')) localStorage.setItem('soyJulio','1'); soyYo=localStorage.getItem('soyJulio')==='1'; }catch(e){}
+function enviar(quien,evento,detalle){
+  const b=new URLSearchParams({'entry.729393637':(prueba?'PRUEBA-':'')+quien,'entry.1092811848':evento,'entry.1309424607':String(detalle).slice(0,1500)});
+  return fetch(FORM,{method:'POST',mode:'no-cors',body:b,keepalive:true}).catch(()=>{});
+}
+if(!soyYo && !/^(localhost|127\.)/.test(location.hostname)){
+  enviar('WEB','abrir',(/Mobi|Android|iPhone/i.test(navigator.userAgent)?'móvil':'ordenador')+' · '+(navigator.language||'')+(document.referrer?' · desde '+document.referrer:''));
+}
+
+document.getElementById('fPedir').addEventListener('submit',async e=>{
+  e.preventDefault(); const f=new FormData(e.target);
+  const d=`Negocio: ${f.get('negocio')} | Tipo: ${f.get('tipo')} | Ciudad: ${f.get('ciudad')} | Contacto: ${f.get('contacto')} | Quiere: ${f.get('mensaje')||'-'}`;
+  e.target.querySelector('button').disabled=true;
+  await enviar('LEAD','pide demo',d);
+  e.target.querySelectorAll('input,select,textarea').forEach(i=>i.disabled=true);
+  document.getElementById('okPedir').style.display='block';
+});
+
+let estrellas=5;
+const st=document.getElementById('stars');
+for(let i=1;i<=5;i++){const b=document.createElement('button');b.type='button';b.textContent='★';b.setAttribute('aria-label',i+' estrellas');b.onclick=()=>{estrellas=i;pinta()};st.appendChild(b)}
+function pinta(){[...st.children].forEach((b,i)=>b.classList.toggle('on',i<estrellas))}
+pinta();
+document.getElementById('fOpinar').addEventListener('submit',async e=>{
+  e.preventDefault(); const f=new FormData(e.target);
+  const d=`Nombre: ${f.get('nombre')} | Negocio: ${f.get('negocio')} | Estrellas: ${estrellas} | Publicar: ${f.get('publicar')?'sí':'no'} | Opinión: ${f.get('texto')}`;
+  e.target.querySelector('button[type=submit]').disabled=true;
+  await enviar('OPINION','opinion',d);
+  e.target.querySelectorAll('input,textarea,button').forEach(i=>i.disabled=true);
+  document.getElementById('okOpinar').style.display='block';
+});
+
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+fetch('opiniones.json',{cache:'no-store'}).then(r=>r.json()).then(list=>{
+  const box=document.getElementById('revs');
+  if(!list.length){document.getElementById('revEmpty').hidden=false;return}
+  box.innerHTML=list.map(o=>`<div class="card rev"><div class="stars">${'★'.repeat(o.estrellas)}${'☆'.repeat(5-o.estrellas)}</div><p style="color:var(--ink)">«${esc(o.texto)}»</p><p><b>${esc(o.nombre)}</b> · ${esc(o.negocio)}</p></div>`).join('');
+}).catch(()=>{document.getElementById('revEmpty').hidden=false});
+</script>
+</body>
+</html>

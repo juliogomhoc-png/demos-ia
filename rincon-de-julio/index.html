@@ -151,6 +151,14 @@ $('ctaA').href = 'mailto:' + REM.email + '?subject=' + encodeURIComponent('Asist
   '&body=' + encodeURIComponent('Hola Julio, hemos visto la demo y nos interesa. ');
 $('foot').textContent = 'Demo hecha por ' + REM.nombre + ' (' + REM.ciudad + ') con datos públicos de Google Maps. No es una página oficial del restaurante. Se cuentan las visitas de forma anónima, sin cookies ni datos personales. Contacto: ' + REM.email;
 $('ctaA').addEventListener('click', () => registrar('contacto', 'pulsó Escribir a Julio'));
+if (R.ficticio) {
+  $('kick').textContent = 'Demo con un restaurante inventado';
+  $('ctaH').textContent = '¿Lo quieres en tu negocio?';
+  $('ctaA').textContent = 'Pide tu demo gratis';
+  $('ctaA').href = '../#pedir';
+  $('ctaA').target = '_top';
+  $('foot').textContent = 'La Tasca del Ejemplo no existe: es un restaurante inventado para enseñar cómo funciona el asistente. Hecho por ' + REM.nombre + ' (' + REM.ciudad + '). Se cuentan las visitas de forma anónima, sin cookies ni datos personales.';
+}
 
 /* ---------- textos del chat (ES / EN / FR) ---------- */
 const T = {
