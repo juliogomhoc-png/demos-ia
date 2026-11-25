@@ -1,0 +1,68 @@
+{
+  "_revisar": [
+    "horario: es una suposición (comidas 13:00-16:30 y cenas hasta la hora de cierre de Google). Pide el real.",
+    "platos: sacados de las reseñas. Pide la carta y marca los vegetarianos con \"vegetariano\": true.",
+    "faq: añade 3-5 preguntas que les hagan siempre (aparcamiento, terraza, mascotas, celíacos…).",
+    "endpoint y token: pega la URL /exec de Apps Script y el mismo token en NEGOCIOS del Codigo.gs.",
+    "max_personas: a partir de cuántas personas prefieren que llamen."
+  ],
+  "slug": "almona",
+  "nombre": "Palacio Andaluz Almona",
+  "direccion": "C. San Jerónimo, 5, 18001 Granada",
+  "telefono": "958 94 93 53",
+  "color": "#1d4ed8",
+  "idioma": "es",
+  "max_personas": 10,
+  "horario": {
+    "lunes": "13:00-16:30, 20:00-23:00",
+    "martes": "13:00-16:30, 20:00-23:00",
+    "miercoles": "13:00-16:30, 20:00-23:00",
+    "jueves": "13:00-16:30, 20:00-23:00",
+    "viernes": "13:00-16:30, 20:00-23:00",
+    "sabado": "13:00-16:30, 20:00-23:00",
+    "domingo": "13:00-16:30, 20:00-23:00"
+  },
+  "platos": [
+    {
+      "nombre": "hummus"
+    },
+    {
+      "nombre": "pasta de berenjena"
+    },
+    {
+      "nombre": "sopa harira"
+    },
+    {
+      "nombre": "pastela de pollo y almendras"
+    },
+    {
+      "nombre": "brochetas de pollo y cordero"
+    },
+    {
+      "nombre": "tajín de cordero"
+    },
+    {
+      "nombre": "el hummus y la pasta de berenjena",
+      "vegetariano": true
+    }
+  ],
+  "carta_url": "",
+  "maps": "",
+  "faq": [
+    {
+      "claves": [
+        "terraza",
+        "terrace",
+        "fuera",
+        "outside"
+      ],
+      "respuesta": {
+        "es": "Pregunta al reservar si queda sitio en terraza y lo anotamos.",
+        "en": "Ask for the terrace when booking and we'll note it down.",
+        "fr": "Demandez la terrasse lors de la réservation et nous le notons."
+      }
+    }
+  ],
+  "endpoint": "",
+  "token": "cpyvVRSg0M314lfQPy2lXJEi"
+}

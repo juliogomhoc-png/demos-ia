@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Web de ejemplo con asistente</title>
+<style>
+  body{margin:0;font-family:Georgia,serif;background:#fffaf5;color:#292524}
+  header{background:#9a3412;color:#fff;padding:60px 20px;text-align:center}
+  h1{margin:0 0 8px;font-size:clamp(28px,6vw,48px)}
+  main{max-width:720px;margin:0 auto;padding:30px 16px;line-height:1.6}
+  code{background:#f1e7dd;padding:2px 6px;border-radius:4px;font-size:13px;word-break:break-all}
+</style>
+</head>
+<body>
+<header><h1>La Tasca del Ejemplo</h1><p>Así queda el asistente en la web de un restaurante (abajo a la derecha).</p></header>
+<main>
+  <p>Esta es una web cualquiera. Para poner el asistente solo hace falta pegar una línea antes de <code>&lt;/body&gt;</code>:</p>
+  <p><code>&lt;script src="https://juliogomhoc-png.github.io/demos-ia/asistente/asistente.js" data-config="https://juliogomhoc-png.github.io/demos-ia/asistente/negocios/ejemplo.json" defer&gt;&lt;/script&gt;</code></p>
+  <p>Funciona en WordPress, Wix, Squarespace o una web hecha a mano. Si el restaurante no tiene web, se usa la página completa (<code>pagina.html?n=ejemplo</code>) desde un QR en la mesa, la ficha de Google o la bio de Instagram.</p>
+</main>
+<script src="asistente.js" data-config="negocios/ejemplo.json" defer></script>
+</body>
+</html>

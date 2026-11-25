@@ -1,0 +1,68 @@
+{
+  "_revisar": [
+    "horario: es una suposición (comidas 13:00-16:30 y cenas hasta la hora de cierre de Google). Pide el real.",
+    "platos: sacados de las reseñas. Pide la carta y marca los vegetarianos con \"vegetariano\": true.",
+    "faq: añade 3-5 preguntas que les hagan siempre (aparcamiento, terraza, mascotas, celíacos…).",
+    "endpoint y token: pega la URL /exec de Apps Script y el mismo token en NEGOCIOS del Codigo.gs.",
+    "max_personas: a partir de cuántas personas prefieren que llamen."
+  ],
+  "slug": "rincon-de-julio",
+  "nombre": "El Rincón de Julio",
+  "direccion": "C. Navas, 27, local bajo, 18009 Granada",
+  "telefono": "615 13 29 30",
+  "color": "#b45309",
+  "idioma": "es",
+  "max_personas": 10,
+  "horario": {
+    "lunes": "13:00-16:30, 20:00-23:30",
+    "martes": "13:00-16:30, 20:00-23:30",
+    "miercoles": "13:00-16:30, 20:00-23:30",
+    "jueves": "13:00-16:30, 20:00-23:30",
+    "viernes": "13:00-16:30, 20:00-23:30",
+    "sabado": "13:00-16:30, 20:00-23:30",
+    "domingo": "13:00-16:30, 20:00-23:30"
+  },
+  "platos": [
+    {
+      "nombre": "rabo de toro"
+    },
+    {
+      "nombre": "codillo"
+    },
+    {
+      "nombre": "croquetas de cocido"
+    },
+    {
+      "nombre": "croquetas de bacalao"
+    },
+    {
+      "nombre": "pulpo a la gallega"
+    },
+    {
+      "nombre": "carne en salsa a la antigua"
+    },
+    {
+      "nombre": "las croquetas de setas",
+      "vegetariano": true
+    }
+  ],
+  "carta_url": "",
+  "maps": "",
+  "faq": [
+    {
+      "claves": [
+        "terraza",
+        "terrace",
+        "fuera",
+        "outside"
+      ],
+      "respuesta": {
+        "es": "Pregunta al reservar si queda sitio en terraza y lo anotamos.",
+        "en": "Ask for the terrace when booking and we'll note it down.",
+        "fr": "Demandez la terrasse lors de la réservation et nous le notons."
+      }
+    }
+  ],
+  "endpoint": "",
+  "token": "DxJJRzHpVMc6fh_O_Ye570xn"
+}

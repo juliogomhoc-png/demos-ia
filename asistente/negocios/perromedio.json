@@ -1,0 +1,61 @@
+{
+  "_revisar": [
+    "horario: es una suposición (comidas 13:00-16:30 y cenas hasta la hora de cierre de Google). Pide el real.",
+    "platos: sacados de las reseñas. Pide la carta y marca los vegetarianos con \"vegetariano\": true.",
+    "faq: añade 3-5 preguntas que les hagan siempre (aparcamiento, terraza, mascotas, celíacos…).",
+    "endpoint y token: pega la URL /exec de Apps Script y el mismo token en NEGOCIOS del Codigo.gs.",
+    "max_personas: a partir de cuántas personas prefieren que llamen."
+  ],
+  "slug": "perromedio",
+  "nombre": "Perromedio",
+  "direccion": "C. Navas, 29, 18009 Granada",
+  "telefono": "675 83 11 46",
+  "color": "#334155",
+  "idioma": "es",
+  "max_personas": 10,
+  "horario": {
+    "lunes": "13:00-16:30, 20:00-23:59",
+    "martes": "13:00-16:30, 20:00-23:59",
+    "miercoles": "13:00-16:30, 20:00-23:59",
+    "jueves": "13:00-16:30, 20:00-23:59",
+    "viernes": "13:00-16:30, 20:00-23:59",
+    "sabado": "13:00-16:30, 20:00-23:59",
+    "domingo": "13:00-16:30, 20:00-23:59"
+  },
+  "platos": [
+    {
+      "nombre": "carne a la brasa"
+    },
+    {
+      "nombre": "tarta de queso"
+    },
+    {
+      "nombre": "melva"
+    },
+    {
+      "nombre": "postres de pistacho"
+    },
+    {
+      "nombre": "Tentazione, el postre nuevo"
+    }
+  ],
+  "carta_url": "",
+  "maps": "",
+  "faq": [
+    {
+      "claves": [
+        "terraza",
+        "terrace",
+        "fuera",
+        "outside"
+      ],
+      "respuesta": {
+        "es": "Pregunta al reservar si queda sitio en terraza y lo anotamos.",
+        "en": "Ask for the terrace when booking and we'll note it down.",
+        "fr": "Demandez la terrasse lors de la réservation et nous le notons."
+      }
+    }
+  ],
+  "endpoint": "",
+  "token": "bh9mJh9pJpD3YVroqi6ymRYh"
+}

@@ -1,0 +1,56 @@
+{
+  "_revisar": [],
+  "slug": "ejemplo",
+  "nombre": "La Tasca del Ejemplo",
+  "direccion": "C. Inventada, 1, 18001 Granada",
+  "telefono": "",
+  "color": "#9a3412",
+  "idioma": "es",
+  "max_personas": 10,
+  "horario": {
+    "lunes": "cerrado",
+    "martes": "13:00-16:30, 20:00-23:30",
+    "miercoles": "13:00-16:30, 20:00-23:30",
+    "jueves": "13:00-16:30, 20:00-23:30",
+    "viernes": "13:00-16:30, 20:00-23:30",
+    "sabado": "13:00-16:30, 20:00-23:30",
+    "domingo": "13:00-16:30, 20:00-23:30"
+  },
+  "platos": [
+    {
+      "nombre": "berenjenas con miel"
+    },
+    {
+      "nombre": "croquetas caseras"
+    },
+    {
+      "nombre": "presa ibérica"
+    },
+    {
+      "nombre": "arroz del día"
+    },
+    {
+      "nombre": "las berenjenas con miel y el arroz de verduras",
+      "vegetariano": true
+    }
+  ],
+  "carta_url": "",
+  "maps": "",
+  "faq": [
+    {
+      "claves": [
+        "terraza",
+        "terrace",
+        "fuera",
+        "outside"
+      ],
+      "respuesta": {
+        "es": "Pregunta al reservar si queda sitio en terraza y lo anotamos.",
+        "en": "Ask for the terrace when booking and we'll note it down.",
+        "fr": "Demandez la terrasse lors de la réservation et nous le notons."
+      }
+    }
+  ],
+  "endpoint": "https://script.google.com/macros/s/AKfycbwnVa9dhdnAErCw0Z5WcGMJHWAaUbzV5F_biADUE1peGWegKRK7wzYvNIosDoIcY4T3/exec",
+  "token": "tk-zN8WyBRTMI6u85vN1huoU8zH"
+}

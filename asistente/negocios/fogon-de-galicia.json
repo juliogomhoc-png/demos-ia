@@ -1,0 +1,64 @@
+{
+  "_revisar": [
+    "horario: es una suposición (comidas 13:00-16:30 y cenas hasta la hora de cierre de Google). Pide el real.",
+    "platos: sacados de las reseñas. Pide la carta y marca los vegetarianos con \"vegetariano\": true.",
+    "faq: añade 3-5 preguntas que les hagan siempre (aparcamiento, terraza, mascotas, celíacos…).",
+    "endpoint y token: pega la URL /exec de Apps Script y el mismo token en NEGOCIOS del Codigo.gs.",
+    "max_personas: a partir de cuántas personas prefieren que llamen."
+  ],
+  "slug": "fogon-de-galicia",
+  "nombre": "El Fogón de Galicia",
+  "direccion": "C. Navas, 29, 18009 Granada",
+  "telefono": "958 99 24 83",
+  "color": "#0e7490",
+  "idioma": "es",
+  "max_personas": 10,
+  "horario": {
+    "lunes": "13:00-16:30, 20:00-23:15",
+    "martes": "13:00-16:30, 20:00-23:15",
+    "miercoles": "13:00-16:30, 20:00-23:15",
+    "jueves": "13:00-16:30, 20:00-23:15",
+    "viernes": "13:00-16:30, 20:00-23:15",
+    "sabado": "13:00-16:30, 20:00-23:15",
+    "domingo": "13:00-16:30, 20:00-23:15"
+  },
+  "platos": [
+    {
+      "nombre": "pulpo a la gallega"
+    },
+    {
+      "nombre": "paella"
+    },
+    {
+      "nombre": "arroces"
+    },
+    {
+      "nombre": "zamburiñas"
+    },
+    {
+      "nombre": "chuletón"
+    },
+    {
+      "nombre": "huevos rotos"
+    }
+  ],
+  "carta_url": "",
+  "maps": "",
+  "faq": [
+    {
+      "claves": [
+        "terraza",
+        "terrace",
+        "fuera",
+        "outside"
+      ],
+      "respuesta": {
+        "es": "Pregunta al reservar si queda sitio en terraza y lo anotamos.",
+        "en": "Ask for the terrace when booking and we'll note it down.",
+        "fr": "Demandez la terrasse lors de la réservation et nous le notons."
+      }
+    }
+  ],
+  "endpoint": "",
+  "token": "qpf3-eYfTF5fy2q6ILX0rcE2"
+}
